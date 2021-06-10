@@ -1,0 +1,53 @@
+*
+{
+    color: white!important;
+    text-decoration: none;
+}
+.text-muted
+{
+    color: rgba(255, 255, 255, 0.8)!important;
+}
+
+
+@keyframes shine {
+    from { -webkit-mask-position: 150%; }
+    to { -webkit-mask-position: -50%; }
+  }
+.navbar
+{
+    background-color: transparent!important;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: white!important;
+}
+.navbar-brand
+{
+    font-weight: 700;
+    font-style: italic;
+    -webkit-mask-position: 150%;
+    -webkit-mask-image: linear-gradient(-75deg, rgb(0,0,0) 30%, rgba(0,0,0,.6) 50%, rgb(0,0,0) 70%);
+    -webkit-mask-size: 200%;
+    color: white!important;
+}
+
+.navbar-brand:hover{
+    animation: shine 1s linear forwards;
+}
+
+body
+{
+    background: rgba(24, 181, 194, 1)!important;
+}
+.jumbotron
+{
+    background: transparent;
+}
+.logotext
+{
+    font-weight: 900;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
